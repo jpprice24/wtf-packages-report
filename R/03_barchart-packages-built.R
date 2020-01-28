@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+
 ## remember to restart R here!
 library(ggplot2)
 ## make a barchart from the frequency table in data/add-on-packages-freqtable.csv
@@ -18,3 +22,5 @@ ggsave(here::here("figs", "built-barchart.png"))
 
 ## YES overwrite the file that is there now
 ## that's old output from me (Jenny)
+
+sessionInfo()
